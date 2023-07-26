@@ -23,6 +23,7 @@ if (firstWorld.length == secondWorld.length) {
     console.log(firstWorld + ' ' + secondWorld);
 
 } else if (firstWorld.length > secondWorld.length) {
+    
     console.log(firstWorld);
 
 } else if (secondWorld.length > firstWorld.length) {
