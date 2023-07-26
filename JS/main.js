@@ -30,11 +30,9 @@ if (firstWorld.length == secondWorld.length) {
 
     console.log(secondWorld);
 }*/
-
+/*
 let arrayVoid = [];
 let somma = 0;
-
-
 
 while (somma < 50) {
 
@@ -52,4 +50,30 @@ while (somma < 50) {
 }
 console.log(arrayVoid);
 
+*/
+
+/*
+let arrayVoid = [];
+let somma = 0;
+let media = 0;
+
+while (somma < 50) {
+
+    let numberUser = parseInt(prompt('Inserisci un numero'));
+
+    somma += numberUser;
+
+
+
+    if (somma < 50) {
+        arrayVoid.push(numberUser);
+
+    }
+
+    media = (somma % arrayVoid.length);
+
+}
+console.log(arrayVoid);
+console.log(media);
+*/
 
