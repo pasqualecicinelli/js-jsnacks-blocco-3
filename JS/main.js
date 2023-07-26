@@ -85,7 +85,7 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 let evenNumbers = [];  //cambio in un array
 
 for (let i = 0; i < numbers.length - 1; i++) { //elimino ; da i++
-    if (i % 2 !== 0) { //cambio numbers con la i e nego la condizione o metto il risultato == 1
+    if (numbers[i] % 2 == 0) { //aggiungo numbers con la i
 
         evenNumbers.push(i);
     }
