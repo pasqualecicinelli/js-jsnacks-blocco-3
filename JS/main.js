@@ -43,16 +43,14 @@ while (somma < 50) {
 
     console.log(somma)
 
-    if (somma < 50) {
-        arrayVoid.push(numberUser);
-    }
+   
 
 }
 console.log(arrayVoid);
 
 */
 
-/*
+
 let arrayVoid = [];
 let somma = 0;
 let media = 0;
@@ -63,19 +61,19 @@ while (somma < 50) {
 
     somma += numberUser;
 
-
-
-    if (somma < 50) {
+    if (somma <= 50) {
         arrayVoid.push(numberUser);
-
     }
 
-    media = (somma % arrayVoid.length);
-
 }
+
+console.log(somma);
+
+media = (somma / arrayVoid.length);
+
 console.log(arrayVoid);
 console.log(media);
-*/
+/*
 
 //Trovare gli errori nel seguente codice:
 
@@ -92,4 +90,4 @@ for (let i = 0; i < numbers.length - 1; i++) { //elimino ; da i++
 }
 console.log(evenNumbers);
 
-    // dovrebbe restituire [1,3,5]	
+    // dovrebbe restituire [1,3,5]	*/
